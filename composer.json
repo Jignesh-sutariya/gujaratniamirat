@@ -1,0 +1,5 @@
+{
+    "require": {
+        "paykun/checkout": "^2.0"
+    }
+}

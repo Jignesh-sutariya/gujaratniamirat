@@ -1,0 +1,70 @@
+{
+    -webkit-print-color-adjust: exact;
+}
+
+.invoice {
+    position: relative;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0
+}
+
+.invoice .company-details {
+    text-align: right
+}
+
+.invoice .company-details .name {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10px;
+}
+
+.invoice .company-details .name a {
+    color: #71C452;
+}
+
+.invoice .invoice-details {
+    text-align: right
+}
+
+.invoice main .thanks {
+    font-size: 10px;
+}
+
+.invoice table {
+    width: 100%;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.invoice table td {
+    text-transform: uppercase!important;
+    padding-left:  10px;
+    padding-right:  10px;
+    background: #fff;
+    font-size: 11px;
+    color: #222;
+}
+
+.logo {
+    width: 90px;
+}
+
+.signature{
+    text-align: right;
+    margin-top: 0;
+}
+
+.contract {
+    margin-top:  10px;
+    display: block;
+}
+
+.invoice footer {
+    width: 100%;
+    text-align: left;
+    color: #777;
+    font-size: 11px;
+    padding-top: 8px
+}
